@@ -58,6 +58,7 @@ let order = {
     }
 };
 
+
 // Log the order details and tax amount
 console.log(order);
 console.log("Tax amount:", order.calculateTax());
