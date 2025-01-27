@@ -48,3 +48,16 @@ customers.push({ name: "David", email: "david@example.com", purchaseAmount: 300 
 
 // Log the entire customer list
 console.log(customers);
+
+let order = {
+    orderId: 123,
+    customerName: "John Doe",
+    amount: 500,
+    calculateTax: function() {
+        return this.amount * 0.10; // Assuming a 10% tax rate
+    }
+};
+
+// Log the order details and tax amount
+console.log(order);
+console.log("Tax amount:", order.calculateTax());
