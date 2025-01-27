@@ -36,3 +36,15 @@ employee.position = "Manager";
 
 // Log the updated object
 console.log(employee);
+
+let customers = [
+    { name: "Alice", email: "alice@example.com", purchaseAmount: 150 },
+    { name: "Bob", email: "bob@example.com", purchaseAmount: 200 },
+    { name: "Charlie", email: "charlie@example.com", purchaseAmount: 250 }
+];
+
+// Add a new customer
+customers.push({ name: "David", email: "david@example.com", purchaseAmount: 300 });
+
+// Log the entire customer list
+console.log(customers);
