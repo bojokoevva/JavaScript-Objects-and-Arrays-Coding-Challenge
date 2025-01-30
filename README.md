@@ -1,1 +1,3 @@
-# JavaScript-Objects-and-Arrays-Coding-Challenge
+# In-class assignment
+
+Follow along coding with Dr. Reed, like a child ~~
